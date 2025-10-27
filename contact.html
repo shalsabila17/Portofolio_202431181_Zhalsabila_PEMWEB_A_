@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | Zhalsabila Amaia Putri</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Zhalsabila</div>
+     <div class="menu-toggle" id="menu-toggle">☰</div>
+    <nav id="navbar" >
+      <a href="index.html">Beranda</a>
+      <a href="index.html#about">Tentang</a>
+      <a href="index.html#skills">Keahlian</a>
+      <a href="data.html">Portofolio</a>
+      <a href="contact.html" class="btn-contact active">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Hubungi Saya</h2>
+    <p class="desc">Isi formulir di bawah ini untuk mengajukan kerja sama, konsultasi, atau sekadar memberikan masukan.</p>
+
+    <form class="contact-form">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email aktif" required>
+
+      <label for="layanan">Jenis Layanan</label>
+      <select id="layanan" name="layanan" required>
+        <option value="">-- Pilih layanan --</option>
+        <option value="request">Request Project</option>
+        <option value="konsultasi">Konsultasi Teknologi</option>
+        <option value="review">Review Portfolio</option>
+      </select>
+
+      <label for="pesan">Pesan</label>
+      <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan atau deskripsi proyek..."></textarea>
+
+      <div class="check">
+        <input type="checkbox" id="setuju" required>
+        <label for="setuju">Saya setuju untuk dihubungi melalui email.</label>
+      </div>
+
+      <button type="submit" class="btn-primary">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Zhalsabila Amaia Putri | <a href="https://itpln.ac.id" target="_blank">Institut Teknologi PLN</a></p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>

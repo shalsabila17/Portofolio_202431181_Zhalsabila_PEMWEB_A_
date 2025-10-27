@@ -1,0 +1,423 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #333;
+    background: linear-gradient(to right, #fff, #f8f5f1);
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-weight: 600;
+    color: #9e7b49;
+    font-size: 1.4rem;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #444;
+    transition: color 0.3s;
+    }
+
+
+
+nav a:hover {
+    color: #9e7b49;
+}
+
+.btn-contact {
+    background: none;
+    color: #444;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.btn-contact:hover {
+    background: none;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 8%;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.hero-photo img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #f2e7da;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero-text h1 span {
+    color: #9e7b49;
+    font-weight: 600;
+}
+
+.hero-text h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.hero-text h2 span {
+    color: #9e7b49;
+    font-weight: 500;
+}
+
+.hero-text p {
+    max-width: 500px;
+    margin: 15px 0 25px;
+    color: #555;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #9e7b49;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #b8935a;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #9e7b49;
+  font-size: 28px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b8935a;
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px;
+    gap: 25px;
+  }
+
+  .social-icons a {
+    font-size: 28px;
+  }
+}
+
+
+
+.about {
+    text-align: ju;
+    padding: 80px 10%;
+}
+
+.about h2 {
+    color: #9e7b49;
+    font-size: 1.8rem;
+}
+
+.about p {
+    max-width: 900px;
+    margin: 50px auto;
+    color: #444;
+}
+
+
+.skills {
+    text-align: center;
+    padding: 60px 10%;
+    background: #f9f8f7;
+}
+
+.skills h2 {
+    color: #9e7b49;
+    font-size: 1.8rem;
+}
+
+.skill-bars {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.skill {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.skill span {
+    font-weight: 500;
+}
+
+.bar {
+    background: #eaeaea;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 10px;
+    background: #9e7b49;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+footer {
+  opacity: 1 ;
+  visibility: visible ;
+  transform: none ;
+  transition: none ;
+
+}
+
+footer a {
+    color: #9e7b49;
+    text-decoration: none;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 80px 8%;
+}
+
+.portfolio h2 {
+  color: #9e7b49;
+  font-size: 1.8rem;
+}
+
+.portfolio .desc {
+  max-width: 600px;
+  margin: 10px auto 30px;
+  color: #555;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f9f8f7;
+  color: #9e7b49;
+  font-weight: 600;
+}
+
+td a {
+  color: #9e7b49;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+
+.contact {
+  text-align: center;
+  padding: 80px 8%;
+}
+
+.contact h2 {
+  color: #9e7b49;
+  font-size: 1.8rem;
+}
+
+.contact .desc {
+  max-width: 600px;
+  margin: 10px auto 30px;
+  color: #555;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  color: #9e7b49;
+  border-color: #b8935a;
+  box-shadow: 0 0 5px rgba(246, 240, 233, 0.929);
+}
+
+.check {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+.check input[type="checkbox"] {
+  margin: 0; 
+  width: 16px; 
+  height: 16px;
+  align-self: center; 
+
+}
+
+.check label {
+  margin: 0; 
+  padding: 0;
+  font-weight: 400; 
+  font-size: 0.75rem;
+}
+
+button.btn-primary {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.reveal {
+   opacity: 0;
+   transition: opacity 1.2s ease, transform 1.2s ease;
+
+}.reveal.left {
+  transform: translateX(-60px);
+
+}
+
+.reveal.right {
+  transform: translateX(60px);
+
+}
+
+.reveal.up {
+  transform: translateY(60px);
+
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translate(0);
+
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #9e7b49;
+}
+
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #9e7b49;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav a {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+.menu-toggle {
+  position: relative;
+  z-index: 9999; 
+  cursor: pointer;
+}
+
