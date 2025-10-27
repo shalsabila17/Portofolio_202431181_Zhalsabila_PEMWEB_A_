@@ -8,17 +8,12 @@
     Portofolio ini menjadi media dokumentasi perjalanan belajar dalam pengembangan web,khususnya menggunakan HTML, CSS, dan JavaScript tanpa bantuan framework backend.
 
     Website terdiri dari beberapa bagian utama, yaitu:
-
+    
     Beranda (index.html): berisi pengenalan singkat dan foto diri.
-
     Tentang: berisi latar belakang dan minat (bagian dalam index.html).
-
     Keahlian: menampilkan kemampuan dalam bentuk progress bar (bagian dalam index.html).
-
     Portofolio (data.html): berisi daftar proyek lengkap dengan informasi teknologi, tahun,status, dan link demo.
-
     Kontak (contact.html): halaman formulir untuk mengirim pesan.
-
     Tampilan web bersifat responsif untuk desktop maupun mobile dan dilengkapi animasi smooth scrolling serta reveal effect agar lebih interaktif.
 
 ## 2. Tujuan 
